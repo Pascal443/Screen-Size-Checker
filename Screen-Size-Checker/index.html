@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>ScreenSize Checker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<!--<span class="logo"><img src="images/logo.svg" alt="" /></span>-->
+						<p>Your current screen physical display size is<br/>
+						<h1 id="screen-size"></h1>
+						<h4 id="window-size"></h4>
+					</header>
+
+			
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header>
+											<h2>Introduction</h2>
+										</header>
+										<p>When people talk about screen sizes, they often mention numbers like 1366 × 768 or 1920 × 1080. But what do these numbers actually mean, and how are they measured? Understanding how screen sizes work is important for developers, designers, and even everyday users who want to get the best viewing experience from their devices.</p>
+										
+									</div>
+									
+								</div>
+							</section>
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header>
+											<h2>Pixels: The Basic Unit of Measurement</h2>
+										</header>
+										<p>Screen sizes are measured in pixels. A pixel is the smallest unit of a digital display, representing a single point of color. When you see a resolution like 1366 × 768, it means the screen has 1366 pixels horizontally and 768 pixels vertically. The higher the number of pixels, the sharper and clearer the display appears.</p>
+										
+									</div>
+									
+								</div>
+							</section>
+		                    <section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header>
+											<h2>Resolution vs Physical Size</h2>
+										</header>
+										<p>It is important to understand that resolution is not the same as physical screen size. Two devices can have the same resolution but different physical dimensions. For example, a 13-inch laptop and a 24-inch monitor can both display 1920 × 1080, but the larger screen will spread those pixels over a bigger area.
+
+										Physical screen size is measured diagonally in inches, from one corner of the screen to the opposite corner. This is why you may hear terms like “15.6-inch laptop” or “6.5-inch smartphone.”</p>
+										
+									</div>
+									
+								</div>
+							</section>
+							  <section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header>
+											<h2>Pixel Density (PPI)</h2>
+										</header>
+										<p>Pixel density, often measured in Pixels Per Inch (PPI), describes how closely pixels are packed together on a screen. A higher PPI means more pixels are packed into each inch, resulting in sharper images and text. Devices like smartphones usually have higher pixel density compared to desktops because they are viewed from a closer distance.</p>	</div>
+									
+								</div>
+							</section>
+
+							 <section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header>
+											<h2>Viewport and Browser Measurement</h2>
+										</header>
+										<p>In web development, screen size is not just about the device resolution. Browsers use something called the viewport, which is the visible area of a webpage. The viewport can be smaller than the full screen due to browser menus, toolbars, or window resizing.
+
+										This is why developers often use JavaScript properties like window.innerWidth and window.innerHeight to measure the actual visible space available for content.</p>
+								</div>
+							</section>
+							
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header>
+											<h2>Device Pixels vs CSS Pixels</h2>
+										</header>
+										<p>Another important concept is the difference between device pixels and CSS pixels. Device pixels refer to the actual physical pixels on a screen, while CSS pixels are used by browsers for layout and styling. Modern devices often have a higher device pixel ratio, meaning multiple physical pixels may represent a single CSS pixel.
+
+										This helps improve clarity and sharpness, especially on high-resolution displays like Retina screens.</div></p>
+								</div>
+							</section>
+
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header>
+											<h2>Why Measurement Matters in Web Design</h2>
+										</header>
+										<p>Understanding how screen sizes are measured helps developers create better user experiences. Without this knowledge, layouts may appear broken, images may not scale properly, and text may become hard to read.
+
+										By considering resolution, pixel density, and viewport size, designers can ensure their websites look consistent across different devices.</p></div>
+							</section>
+
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header>
+											<h2>Conclusion</h2>
+										</header>
+										<p>Screen sizes are more than just numbers—they represent how content is displayed and experienced. By understanding pixels, resolution, physical size, and viewport behavior, developers and designers can build websites that are both visually appealing and highly functional. In a world where users access content from many different devices, mastering screen size measurement is essential for success.</p></div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; ScreenSize Checker</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+		    <script src="assets/js/screen-size.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
